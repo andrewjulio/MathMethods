@@ -11,8 +11,7 @@ let answer_1 = prompt("Give me a number between 1 and 100");
 number_1 = parseFloat(answer_1);
 
 // 5. Repeat steps 3 and 4 to create a second variable and collect a second number
-answer_2 = prompt("Give me another number between 1 and 100");
-number_2 = parseFloat(answer_2);
+number_2 = parseFloat(prompt("Give me another number between 1 and 100"));
 
 // 6. Create a new variable -- message -- which you'll use to build
 //    a complete message to print to the document
@@ -46,15 +45,3 @@ message += number_1 + " - " + number_2 + " = " + (number_1 - number_2) + "<br>";
 //     to the web page. Open the finished.png file in this workspace
 //     to see what the completed output should look like
 document.write(message);
-
-
-
-
-
-
-
-
-
-
-
-
